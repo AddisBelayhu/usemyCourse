@@ -10,3 +10,16 @@ console.log('the sum of ' + a + ' and ' + b + ' is: ' + sum);
 console.log(`the sum of ${a} and ${b} is: ${sum}`);
 
 // Ruels in declaring a variable
+
+let employeeName = 'Abebe';
+console.log(`Employee Name: ${employeeName} and Emplotye Data Type: ${typeof employeeName} `);
+
+let nameemp = "Addis";
+console.log(`value: ${nameemp} and type is: ${typeof nameemp}`);
+
+let nameOne = null;
+console.log(`value: ${nameOne} and type is: ${typeof nameOne}`);
+
+let breadValue = true;
+console.log(`the value is: ${breadValue} and the data type is: ${typeof breadValue}`);
+
