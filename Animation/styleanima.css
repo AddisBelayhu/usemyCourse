@@ -22,3 +22,39 @@ body {
     height: 100vh;
     position: relative;
 }
+
+.balls {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.ball {
+    position: absolute;
+    top:-50px;
+    width: 50px;
+    height: 50px;
+    background: peru;
+    border-radius: 50%;
+    margin: 0 20px;
+    animation: ball 4s infinite;
+}
+
+.ball--1 {
+    background-image: linear-gradient(to bottom, #ffe93e, #ff952a);
+}
+
+.ball--2 {
+    background-image: linear-gradient(to bottom, #ff009e, #ff0038);
+}
+
+.ball--3 {
+    background-image: linear-gradient(to bottom, #00f4fe, #00bdfb);
+}
+
+.ball--4 {
+    background-image: linear-gradient(to bottom, #fc00f9, #b500f9);
+}
+
+
